@@ -1,0 +1,19 @@
+{
+  "name": "iplayer-omx",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "SOCKET_SERVER_URL=http://192.168.22.3 nodemon .",
+    "start": "SOCKET_SERVER_URL=http://192.168.22.3 node index.js",
+    "deploy": "node deploy.js"
+  },
+  "dependencies": {
+    "moment": "^2.19.1",
+    "omxctrl": "^0.1.2",
+    "socket.io-client": "^2.0.3"
+  },
+  "devDependencies": {
+    "nodemiral": "^1.1.1"
+  }
+}
